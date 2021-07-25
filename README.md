@@ -1,0 +1,2 @@
+# iTunesPlaylist2SonyDap-Python
+iTunesPlaylist2SonyDap
