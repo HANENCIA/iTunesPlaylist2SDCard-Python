@@ -1,2 +1,2 @@
-# iTunesPlaylist2SonyDap-Python
-iTunesPlaylist2SonyDap
+# iTunesPlaylist2Android-Python
+iTunesPlaylist2Android-Python
