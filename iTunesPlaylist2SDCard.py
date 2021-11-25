@@ -3,7 +3,8 @@ import os
 import shutil
 import glob
 
-TARGET_DRIVE_LETTER = 'J'
+ITUNES_PLAYLIST_LOCATION = './iTunesPlaylist'
+TARGET_MUSIC_LOCATION = './Music'
 
 def copy_m4a_file(playlist_location, dest_location):
     file_location = read_location(playlist_location)
@@ -46,8 +47,8 @@ def read_playlist(dirname):
 
 
 def main():
-    playlist = read_playlist('./iTunesPlaylist')
-    target_dir = str(TARGET_DRIVE_LETTER) + ':\Music'
+    playlist = read_playlist(ITUNES_PLAYLIST_LOCATION)
+    target_dir = str(TARGET_MUSIC_LOCATION)
     for list in playlist:
         copy_m4a_file(list, target_dir)
 
