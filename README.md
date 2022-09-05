@@ -1,2 +1,2 @@
-# iTunesPlaylist2Android-Python
-iTunesPlaylist2Android-Python
+# iTunesPlaylist2SDCard-Python
+iTunesPlaylist2SDCard-Python
