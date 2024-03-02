@@ -13,6 +13,7 @@ def copy_m4a_file(playlist_location, dest_location):
         os.makedirs(dest_location)
 
     f = open(str(dest_location) + '\\' + str(os.path.splitext(os.path.basename(playlist_location))[0])+'.m3u', 'w', encoding='utf-8')
+    f.write(u'\ufeff')
     f.write('#EXTINF')
     f.write('\n')
     
